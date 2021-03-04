@@ -50,7 +50,6 @@ func Test_Problem1(t *testing.T) {
 			para1{[]int{0, 3}, 5},
 			ans1{[]int{}},
 		},
-		// 如需多个测试，可以复制上方元素。
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1------------------------\n")
