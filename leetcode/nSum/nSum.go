@@ -1,5 +1,6 @@
 package leetcode
 
+// Solution 1
 func nSum(nums []int, n int, target int) []int {
 	return sumN(nums, n, target, 0, make([]int, 0))
 }
@@ -17,3 +18,5 @@ func sumN(nums []int, n int, target int, i int, res []int) []int {
 	}
 	return next
 }
+
+// Solution 2
