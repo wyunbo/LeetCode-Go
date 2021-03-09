@@ -20,7 +20,7 @@ func rightSideView(root *TreeNode) []int {
 	if root == nil {
 		return []int{}
 	}
-	outline, queue := []int{}, []*TreeNode{}
+	outline, queue := []int{}, []*TreeNode{root}
 	for len(queue) > 0 {
 		size := len(queue)
 		for i := 0; i < size; i++ {
